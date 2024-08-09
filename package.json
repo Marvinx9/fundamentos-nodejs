@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "start:dev": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
+    "git-commit-msg-linter": "^5.0.8",
+    "tsconfig": "^7.0.0",
     "uuid": "^10.0.0"
   },
   "devDependencies": {
